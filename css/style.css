@@ -1,0 +1,319 @@
+
+
+.hero {
+  background: url(../img/video-bg.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+  .header__up {
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 12px;
+  }
+
+.header__logo {
+  width: 32%;
+  float: left; }
+
+.header__nav {
+  float: left;
+  padding-top: 13px;
+  width: 68%;
+
+ }
+ .hero__container{
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 0;
+   right: 0;
+
+ }
+ .com{
+   width: 940px;
+   margin: 0 auto;
+
+ }
+ .nav {
+   display: inline-block;
+ }
+ .nav__list{
+   display: inline-block;
+ }
+ .nav__item {
+   display: inline-block;
+ }
+ .nav__item:after {
+   content: "";
+   width: 4px;
+   height: 4px;
+   border-radius:50%;
+   background: #fff;
+   vertical-align: middle;
+   margin:0 15px;
+   display: inline-block;
+
+
+ }
+ .nav__item:last-child:after{
+   display: none;
+ }
+
+.nav__link {
+  color: #fff;
+
+  font-family: 'ubuntu';
+  font-weight: 300;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.nav__link:hover{
+  text-decoration: underline;
+}
+.order__link{
+  display: inline-block;
+  margin-left: 15px;
+  width: 15%;
+  vertical-align: middle;
+  padding: 9px 0;
+}
+.btn {
+  background: #e45028;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'ubuntu';
+  font-weight: 400;
+  color: #fff;
+  vertical-align: top;
+  display: inline-block;
+  padding: 9px 16px;
+}
+
+
+.header__left{
+  float: left;
+  width: 50%;
+  padding-left: 70px;
+}
+.header__photo {
+  background: url(../img/steam.png);
+  background-size: cover;
+  width: 365px;
+  height: 380px;
+  position: relative;
+ }
+ .header__photo-drops{
+   position: absolute;
+   top: 50px;
+   left: -70px;
+ }
+.header__right{
+  width: 50%;
+  float: left;
+  padding-top: 115px;
+
+}
+.header__title {
+  font-size: 72px;
+  color: #f9b43b;
+  font-family: 'gagalin';
+  font-weight: 400;
+  margin-bottom: 12px;
+
+
+
+ }
+
+.header__description {
+  font-size: 65px;
+  font-family: 'lifehack';
+  font-weight: 600;
+  text-transform: lowercase;
+  line-height: 1em;
+  color: #fff; }
+
+.down-arrow{
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  width: 60px;
+  margin-left: -15px;
+  transition: .3s;
+  height: 60px;
+}
+.down-arrow img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  transform: translate(-50%, -50%);
+  transition: .3s;
+}
+.down-arrow:hover  img {
+  top:20%;
+
+}
+/*   Карта */
+
+.yandex-map{
+  width: 100%;
+  height: calc(100% - 60px);
+}
+
+
+/* Подвал */
+.footer{
+  height: 60px;
+  overflow: hidden;
+  background: #000;
+}
+.footer__left{
+  float: left;
+  color: #fff;
+}
+.footer__addres {
+  font-family: 'ubuntu';
+  font-weight: 300;
+}
+.footer__phone{
+  font-family: 'ubuntu';
+  font-weight: 600;
+  color: #e35028;
+  font-size: 14px;
+}
+.footer__right{
+  float: right;
+  padding-top: 9px;
+}
+.social__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+
+}
+.social__link {
+  display: inline-block;
+  opacity: .3;
+  transition: .3s;
+}
+.social__link:hover{
+  opacity: 1;
+}
+
+
+
+/* Фиксированное меню*/
+
+.fixed-menu {
+  position: fixed;
+  top: 90px;
+  right: 40px;
+}
+.fixed-menu__item{
+  margin-bottom: 5px;
+
+}
+.fixed-menu__link {
+  width: 16px;
+  height: 16px;
+  display: block;
+  position: relative;
+}
+.fixed-menu__link:before {
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  opacity: 0;
+  transition: .3s;
+
+}
+.fixed-menu__link:before,
+.fixed-menu__link:after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.fixed-menu__link:after{
+  width: 6px;
+  height: 6px;
+  background: #fff;
+}
+.fixed-menu__link:hover:before{
+  width: 14px;
+  height: 14px;
+  opacity: 1;
+}
+
+.fixed-menu__item.active
+.fixed-menu__link:before {
+  width: 14px;
+  height: 14px;
+  opacity: 1;
+}
+
+
+/*  Всплывашки */
+
+.full-review {
+  display: none;
+  padding: 25px 20px;
+  position: relative;
+  width: 460px;
+
+
+}
+.full-review__close {
+  width: 15px;
+  height: 15px;
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  opacity: 0.7;
+  transition: .3s;
+}
+.full-review__title {
+  font-family: 'gagalin';
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.full-review__content {
+  font-size: 14px;
+  font-family: 'ubuntu';
+  font-weight: 300;
+}
+.status-popup {
+  width: 240px;
+
+}
+.popup {
+  display: none;
+}
+.status-popup__inner {
+  padding: 20px;
+  text-align: center;
+
+}
+.status-popup__message {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.error-message {
+  color: #e35028;
+
+}

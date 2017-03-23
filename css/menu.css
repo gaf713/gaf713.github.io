@@ -1,0 +1,74 @@
+.menu {
+  background: url(../img/menu.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.section-menu__title{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: #fff;
+  font-family: 'gagalin';
+  font-weight: 400;
+  font-size: 72px;
+  margin-bottom: 12px;
+}
+.menu-acco{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.menu-acco__item{
+  float: left;
+  height: 100%;
+}
+.menu-acco__item.active
+.menu-acco__trgger-text{
+  color: #f9b43b;
+  }
+  .menu-acco__item.active
+  .menu-acco__content{
+    width: 550px;
+  }
+.menu-acco__trigger{
+  position: relative;
+  height: 100%;
+  display: block;
+  width: 80px;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+ .menu-acco__trgger-text{
+
+   font-family: 'gagalin';
+   font-size: 40px;
+   position: absolute;
+   top: 50%;
+   color: #fff;
+   height: 80px;
+   margin-top: -40px;
+   white-space: nowrap;
+   width: 650px;
+   left: 50%;
+   margin-left: -312px;
+   transform: rotate(-90deg);
+   text-align: center;
+ }
+ .menu-acco__content{
+   background: rgba(47, 50, 52, 0.93);
+   width: 0px;
+   float: left;
+   height: 100%;
+   color: #fff;
+   overflow: hidden;
+ }
+ .menu-acco__text {
+   font-family: 'ubuntu';
+   font-size: 14px;
+   padding: 60px 30px;
+   line-height: 1.8;
+   width: 550px;
+ }

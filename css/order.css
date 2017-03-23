@@ -1,0 +1,100 @@
+.order{
+  background:url(../img/board.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+.section__title{
+  text-align: center;
+  color: #f9b43b;
+  font-family: 'gagalin';
+  font-size: 75px;
+  margin-bottom: 12px;
+}
+.order__form-col {
+  float: left;
+  width: 45%;
+  margin-left: 5%;
+
+}
+.order__form-row {
+  margin-bottom: 16px;
+
+}
+.order__form {
+  margin-left: -5%;
+}
+.order__form-label {
+  font-family: 'ubuntu';
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 17px;
+}
+.order__form-input{
+  font-size: 14px;
+  padding: 5px 10px;
+  border: 1px solid #d1cfcb;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.order__form-row_double{
+  margin-left: -20px;
+}
+.order__form-row_double
+.order__form-block {
+  width: calc(100%/2 - 20px);
+  margin-left: 20px;
+  float: left;
+}
+.order__form-row_quatro{
+  margin-left: -20px;
+}
+.order__form-row_quatro
+.order__form-block {
+  float: left;
+  margin-left: 20px;
+  width: calc(100%/4 - 20px);
+}
+.order__form-col__right{
+
+}
+.order__form-input_textarea{
+  height: 105px;
+}
+.order__radio {
+  position: relative;
+  margin-right: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.order__radio-title{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  margin-left: 10px;
+  font-family: 'ubuntu';
+  font-weight: 300;
+}
+.order__form-button{
+  background: #e35028;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 20px;
+  vertical-align: middle;
+  border: 0;
+  font-family: 'ubuntu';
+  font-weight: 300;
+}
+.order__form-button_reset{
+  text-transform: none;
+  background: transparent;
+  padding-left: 0;
+  padding-right: 0;
+}

@@ -1,0 +1,170 @@
+.burgers {
+  background: url(../img/Rectangle.jpg) no-repeat;
+  background-size: cover; }
+
+
+
+.section {
+  height: 100vh;
+  min-height: 650px;
+}
+.burgers__container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.com {
+  margin: 0 auto;
+  position: relative;
+  width: 940px;
+}
+.burger-slider__btn-next,
+.burger-slider__btn-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.burger-slider__btn-prev{
+  left: -30px;
+  transform: rotate(90deg);
+}
+.burger-slider__btn-next{
+  right: -30px;
+  transform: rotate(-90deg);
+}
+.burger-slider-wrap {
+  position: relative;
+}
+
+.ingridients{
+  position: absolute;
+  display: block;
+  top: 20px;
+  left: 0;
+  background: rgba(227,80,40, 0.4);
+  width: 90px;
+  height: 90px;
+  border-radius:5px;
+  z-index: 10;
+}
+.ingridients:hover{
+  background: rgb(227,80,40);
+}
+.ingridients:hover .ingridients__dropdown{
+  left:90px;
+}
+.ingridients__icon{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ingridients__icon-text{
+  color: #fff;
+  font-size: 14px;
+  font-family: 'gagalin';
+}
+.ingridients__dropdown {
+  background: rgba(255,255,255, .9);
+  width: 270px;
+  border-radius: 7px;
+  padding: 20px;
+  position: absolute;
+  left: -9999px;
+  font-family: 'ubuntu';
+  font-weight: 300;
+
+
+
+}
+tbody{
+  vertical-align: middle;
+}
+.ingridients__table-sell {
+  padding: 7px 12px;
+}
+.burger-weight {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+
+}
+.burger-weight__measure{
+  background: url("../img/icons/kkal.svg") 50% no-repeat;
+  width: 65px;
+  height: 60px;
+  position: relative;
+}
+.burger-weight__amount{
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'gagalin';
+  font-weight: 400;
+}
+.burger-weight-title{
+  text-align: center;
+  color: #fff;
+  font-family: 'gagalin';
+  font-weight: 400;
+}
+.burger-slider__item{
+  position: relative;
+  padding-bottom: 85px;
+}
+.burgers-slider__left{
+  float: left;
+  width: 50%;
+  padding-top: 95px;
+}
+.burgers-slider__pic{
+  max-width: 100%;
+}
+.burgers-slider__right{
+  float: left;
+  width: 50%;
+
+}
+.section-burger__title{
+  color: #fff;
+  font-size: 70px;
+  font-family: 'gagalin';
+  font-weight: 600;
+  margin-bottom: 15px;
+  line-height: 1.1em;
+}
+.burger-slider__text {
+  color: #fff;
+  margin-bottom: 18px;
+  font-family: 'ubuntu';
+  font-weight: 300;
+  line-height: 1.8;
+
+
+}
+.burgers-slider__price{
+  display: inline-block;
+  color: #e35028;
+  font-family: 'gagalin';
+  font-size: 400;
+  margin-right: 32px;
+}
+.burgers-slider__price-amount{
+  font-size: 72px;
+}
+.burgers-slider__price-measure{
+  font-size: 30px;
+
+}
+.burgers-slider__price-amount, .burgers-slider__price-measure {
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 1;
+}

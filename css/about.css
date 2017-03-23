@@ -1,0 +1,22 @@
+.about {
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: cover; }
+
+  .about__best-work {
+  float: left;
+  width: 310px;
+  text-align: center;
+  }
+  .section__title-about {
+    font-size: 75px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-family: 'gagalin';
+    color: #2f3234;
+  }
+.about__title {
+  font-family: 'lifehack';
+  font-size: 24px;
+  color: #2f3234;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,88 @@
+.clients__item1 {
+  background:url(../img/clients_1.jpg) no-repeat;
+
+}
+.clients__item2{
+  background:url(../img/clients_2.jpg)  no-repeat;
+}
+.clients__item3{
+  background:url(../img/clients_3.jpg) center no-repeat;
+}
+.clients__item4{
+  background:url(../img/clients_4.jpg) no-repeat;
+}
+.clients__item5{
+  background:url(../img/clients_5.jpg) no-repeat;
+}
+.clients__item6{
+  background:url(../img/clients_6.jpg) no-repeat;
+}
+.clients__item7{
+  background:url(../img/clients_7.jpg) no-repeat;
+}
+.clients__item8{
+  background:url(../img/clients_8.jpg) no-repeat;
+}
+.photo {
+  width: 25%;
+  height: 50%;
+  float: left;
+  background-size:cover;
+  position: relative;
+}
+
+
+.clients__photo {
+  position: relative;
+  left: 9999px;
+}
+.review__hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(20, 20, 20, 0.7);
+  transform: scale(0.9);
+  opacity: 0;
+  transition: .3s;
+  padding: 70px 40px;
+}
+.photo{
+  overflow: hidden;
+}
+.photo:hover
+.review__hover{
+  opacity: 1;
+  transform: scale(1);
+
+}
+.review__title {
+  color: #fff;
+  font-family: 'gagalin';
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.review__shorttext{
+  color: #fff;
+  font-size: 14px;
+  font-family: 'ubuntu';
+  font-weight: 300;
+  margin-bottom: 13px;
+  line-height: 1.6;
+}
+.review__view {
+  border-radius: 5px;
+  background-color: #2f3234;
+  display: inline-block;
+  padding: 8px 12px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'ubuntu'
+  font-weight: 600;
+  font-size: 12px;
+
+
+}
